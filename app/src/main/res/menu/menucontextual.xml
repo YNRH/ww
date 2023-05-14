@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/acceso"
+        android:title="Crear acceso directo"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/contacto"
+        android:title="Ver contacto"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/eliminar"
+        android:title="Eliminar chat"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/etiquetar"
+        android:title="Etiquetar chat"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/archivar"
+        android:title="Archivar chat"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/silenciar"
+        android:title="Silenciar notificaciones"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/fijar"
+        android:title="Fijar chat"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/marcar"
+        android:title="Marcar como no leído"
+        app:showAsAction="ifRoom" />
+</menu>

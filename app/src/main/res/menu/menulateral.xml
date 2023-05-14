@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_nav_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cuenta"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Cuenta" />
+        <item
+            android:id="@+id/nav_chats"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="Chats" />
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@android:drawable/stat_notify_error"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_usu"
+            android:icon="@android:drawable/stat_notify_sync"
+            android:title="Uso de datos" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Información y ayuda" />
+        <item
+            android:id="@+id/nav_contactos"
+            android:icon="@android:drawable/stat_sys_phone_call_on_hold"
+            android:title="Contactos" />
+    </group>
+    <group
+        android:id="@+id/group_nav_system"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Configuracion" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Salir" />
+    </group>
+
+</menu>
